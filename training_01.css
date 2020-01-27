@@ -1,0 +1,35 @@
+html,body {
+    margin: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    /* box-sizing: content-box;　デフォルト */ 
+}
+
+.display-none {
+    display: none;
+}
+
+.tab-container {
+    display: flex;
+    text-align: center;
+}
+
+.tab {
+    width: 100px;
+    height: 30px;
+    border: 1px solid powderblue;
+}
+
+.panel {
+    width: 300px;
+    height: 200px;
+    border: 1px solid palevioletred;
+}
